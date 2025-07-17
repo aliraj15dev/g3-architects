@@ -162,3 +162,17 @@ figure{
 .fact img,h4{
     margin-bottom: 10px;
 }
+
+/* sponsors section styles */
+.sponsors-info{
+    text-align: center;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    gap: 50px;
+}
+.sponsors img{
+    filter: grayscale(100%);
+}

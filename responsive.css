@@ -61,4 +61,16 @@
         max-width: 450px;
         margin: 0 auto;
     }
+    /* sponsors section responsive */
+    .sponsors-info{
+    max-width: 450px;
+    margin: 0 auto;
+    }
+    .sponsors{
+    grid-template-columns: 1fr;
+        }
+    .sponsors img{
+    max-width: 450px;
+    margin: 0 auto;
+    }
 }
