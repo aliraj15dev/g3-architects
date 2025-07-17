@@ -176,3 +176,12 @@ figure{
 .sponsors img{
     filter: grayscale(100%);
 }
+/* footer section styles */
+footer{
+    padding: 40px 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 0;
+}
