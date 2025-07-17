@@ -25,4 +25,27 @@
     margin-bottom: 20px;
     }
 
+    /* enjoyable features styles responsive */
+    .enjoyable-features{
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    }
+    .features-item{
+    max-width: 450px;
+    margin: 20px auto;
+    }
+    .features-details .btn-primary{
+    page-break-after: 40px 45px;
+    }
+    .enjoyable-features img{
+        max-width: 450px;
+    }
+    .years{
+    font-size: 3rem;
+    }
+
+    #experience-badge{
+    margin: 20px auto ;
+    }
 }

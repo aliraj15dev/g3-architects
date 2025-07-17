@@ -24,6 +24,9 @@
 .bg{
    background-color: rgba(255, 144, 14, 0.10);
 }
+.m-bg{
+    background-color: #F3F3F3;
+}
 .btn-primary{
     color: white;
     background-color: #FF900E;
@@ -103,4 +106,40 @@ figure{
 }
 .orange{
     color: #FF900E;
+}
+/* enyoable features styles */
+.enjoyable-features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.left-border{
+    border-left: 5px #FF900E solid;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.features-item{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px ;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.features-details .btn-primary{
+    page-break-after: 40px 45px;
+}
+.years{
+    font-size: 4rem;
+    font-weight: bold;
+    display: block;
+}
+.experience{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#experience-badge{
+    margin-top: -100px;
+    margin-left: -80px;
 }
