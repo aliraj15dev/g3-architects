@@ -1,5 +1,6 @@
 /* mobile responsive styles start */
 @media screen and (max-width:570px) {
+    /* header, nav and banner */
     nav h2{
     font-size: 1.25rem;
     }
@@ -11,6 +12,17 @@
     }
     .banner-title h1{
     font-size: 3rem;
+    }
+    /* quick features */
+    .quick-features{
+    flex-direction: column;
+    text-align: center;
+    }
+    figure{
+    grid-template-columns: 1fr;
+    }
+    .quick-features-details h2{
+    margin-bottom: 20px;
     }
 
 }
