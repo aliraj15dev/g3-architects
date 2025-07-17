@@ -143,3 +143,22 @@ figure{
     margin-top: -100px;
     margin-left: -80px;
 }
+
+/* facts section styles */
+.some-facts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 50px;
+}
+.fact{
+    border: 2px solid #FF900E;
+    padding: 45px 35px;
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+.fact img,h4{
+    margin-bottom: 10px;
+}
