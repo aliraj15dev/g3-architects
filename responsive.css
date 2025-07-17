@@ -1,0 +1,16 @@
+/* mobile responsive styles start */
+@media screen and (max-width:570px) {
+    nav h2{
+    font-size: 1.25rem;
+    }
+    ul{
+    gap: 10px;
+    }
+    .banner-title{
+    max-width: 450px;
+    }
+    .banner-title h1{
+    font-size: 3rem;
+    }
+
+}
