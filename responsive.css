@@ -78,3 +78,58 @@
     padding: 20px;
     }
 }
+
+/* Tablet devices responsive styles start */
+@media screen and (min-width:571px) and (max-width:990px) {
+    /* header needn't responsive */
+    /* quick features section responsive */
+    .quick-features{
+    flex-direction: column;
+    padding: 0px;
+    max-width: 900px;
+    margin: 0 auto;
+    }
+    .quick-features-details{
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    /* enjoyable section responsive */
+    .enjoyable-features{
+        flex-direction: column;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .features-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    #experience-badge{
+        display: block;
+        margin: 20px auto;
+    }
+    /* facts sections responsive */
+    .facts{
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        justify-items: center;
+    }
+    .some-facts{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    /* sponsors section responsive */
+    .sponsors{
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    justify-items: center;
+    }
+    /* footer responsive */
+    footer{
+    padding: 40px;
+    }
+}
